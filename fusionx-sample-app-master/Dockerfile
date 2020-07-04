@@ -1,3 +1,4 @@
+##test
 FROM gcr.io/lolc-ci-cd/base-image-jre:1.0.0
 ARG ARTIFACT
 COPY ${ARTIFACT} app.jar
